@@ -1,0 +1,60 @@
+{
+  "name": "translation",
+  "displayName": "Translation",
+  "description": "A simple translation tool",
+  "version": "0.0.1",
+  "publisher": "coderfee",
+  "engines": {
+    "vscode": "^1.27.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.translate"
+  ],
+  "main": "./out/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.translate",
+        "title": "Translate"
+      }
+    ]
+  },
+  "configuration": {
+    "title": "translation configuration",
+    "properties": {
+      "trans.secret_key": {
+        "type": "string",
+        "default": "",
+        "description": "Secret key: http://api.fanyi.baidu.com/api/trans/product/desktop?req=developer"
+      },
+      "trans.app_id": {
+        "type": "string",
+        "default": "",
+        "description": "APP ID: http://api.fanyi.baidu.com/api/trans/product/desktop?req=developer"
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.1.33",
+    "@types/mocha": "^2.2.42",
+    "@types/node": "^8.10.25",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1",
+    "vscode": "^1.1.21"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "md5": "^2.2.1"
+  }
+}
