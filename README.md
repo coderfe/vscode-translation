@@ -6,7 +6,7 @@
 
 ## 使用
 
-
+![usage](https://raw.githubusercontent.com/coderfe/vscode-translation/master/images/vscode-translation.gif)
 
 插件使用了[百度翻译平台的 API][1]，因此需要[申请][2]翻译 API 服务。
 
