@@ -8,6 +8,16 @@
     "vscode": "^1.27.0"
   },
   "icon": "images/icon.png",
+  "author": {
+    "name": "coderfee",
+    "email": "coderfee@outlook.com",
+    "url": "https://coderfee.com"
+  },
+  "repository": {
+    "url": "https://github.com/coderfe/vscode-translation.git",
+    "type": "git"
+  },
+  "homepage": "https://marketplace.visualstudio.com/items?itemName=coderfee.translation",
   "keywords": [
     "翻译",
     "trans",
