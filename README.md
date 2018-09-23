@@ -14,10 +14,8 @@
 
 ```json
 {
-  //...
-  "trans.app_id": "xxxxxxxxxxxxxxxx",
-  "trans.secret_key": "xxxxxxxxxxxxxxxx"
-  //...
+  "trans.appId": "xxxxxxxxxxxxxxxx",
+  "trans.secretKey": "xxxxxxxxxxxxxxxx"
 }
 ```
 

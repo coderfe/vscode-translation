@@ -21,7 +21,6 @@ const ERROR_MESSAGE: any = {
   '58001': '检查译文语言是否在语言列表里'
 };
 
-
 export function activate(context: vscode.ExtensionContext) {
   let disposable = vscode.commands.registerCommand('extension.translate', () => {
     const outputChannel: vscode.OutputChannel = vscode.window.createOutputChannel('Translation');

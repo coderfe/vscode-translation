@@ -15,8 +15,8 @@ class Translation {
 
   constructor(query: string) {
     this.query = query;
-    this.APP_ID = workspace.getConfiguration().get('trans.app_id');
-    this.SECRET_KEY = workspace.getConfiguration().get('trans.secret_key');
+    this.APP_ID = workspace.getConfiguration().get('trans.appID');
+    this.SECRET_KEY = workspace.getConfiguration().get('trans.secretKey');
   }
 
   private sign() {

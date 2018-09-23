@@ -37,20 +37,20 @@
         "command": "extension.translate",
         "title": "Translate"
       }
-    ]
-  },
-  "configuration": {
-    "title": "translation configuration",
-    "properties": {
-      "trans.secret_key": {
-        "type": "string",
-        "default": "",
-        "description": "Secret key: http://api.fanyi.baidu.com/api/trans/product/desktop?req=developer"
-      },
-      "trans.app_id": {
-        "type": "string",
-        "default": "",
-        "description": "APP ID: http://api.fanyi.baidu.com/api/trans/product/desktop?req=developer"
+    ],
+    "configuration": {
+      "title": "translation configuration",
+      "properties": {
+        "trans.secretKey": {
+          "type": "string",
+          "default": "",
+          "description": "Secret key: http://api.fanyi.baidu.com/api/trans/product/desktop?req=developer"
+        },
+        "trans.appID": {
+          "type": "string",
+          "default": "",
+          "description": "APP ID: http://api.fanyi.baidu.com/api/trans/product/desktop?req=developer"
+        }
       }
     }
   },
